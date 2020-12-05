@@ -50,7 +50,7 @@ get_latest_release() {
 
 echo "* Retrieving release information.."
 PTERODACTYL_VERSION="$(get_latest_release "pterodactyl/panel")"
-echo "* Latest version is $PTERODACTYL_VERSION"
+echo "* Latest current version is $PTERODACTYL_VERSION"
 
 # variables
 WEBSERVER="nginx"
